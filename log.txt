@@ -43,3 +43,53 @@ Artist: Clark Younger
 Song Title: Unforgetable
 Album: Clark Younger
 Preview the song: https://p.scdn.co/mp3-preview/067ee955d2c12242cedbb99f3ad49f0007a0429e?cid=bcae1a536aee4c6f906aa2dc3a13dd43
+Artist: Ace of Base
+Song Title: The Sign
+Album: The Sign (US Album) [Remastered]
+Preview the song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=bcae1a536aee4c6f906aa2dc3a13dd43
+Name of Venue: Abu Dhabi F1
+Venue Location: Abu Dhabi, United Arab Emirates
+Event Date: 11/23/2018
+Name of Venue: AsiaWorld Expo Arena
+Venue Location: Hong Kong, Hong Kong
+Event Date: 11/30/2018
+Name of Venue: IMPACT 
+Venue Location: Ban Mai, Thailand
+Event Date: 12/02/2018
+Name of Venue: Indoor Stadium
+Venue Location: Singapore, Singapore
+Event Date: 12/05/2018
+Name of Venue: Mall of Asia Arena
+Venue Location: Manila, Philippines
+Event Date: 12/07/2018
+Artist: blink-182
+Song Title: All The Small Things
+Album: Enema Of The State
+Preview the song: null
+Name of Venue: Abu Dhabi F1
+Venue Location: Abu Dhabi, United Arab Emirates
+Event Date: 11/23/2018
+Name of Venue: REBEL
+Venue Location: Toronto, Canada
+Event Date: 11/06/2018
+Name of Venue: AsiaWorld Expo Arena
+Venue Location: Hong Kong, Hong Kong
+Event Date: 11/30/2018
+Name of Venue: IMPACT 
+Venue Location: Ban Mai, Thailand
+Event Date: 12/02/2018
+Name of Venue: Indoor Stadium
+Venue Location: Singapore, Singapore
+Event Date: 12/05/2018
+Title: Finding Nemo
+Release Year: 2003
+IMDB Rating: 8.1
+Rotten Tomatoes Rating: 99%
+Countries of Production: USA
+Language: English
+Actors: Albert Brooks, Ellen DeGeneres, Alexander Gould, Willem Dafoe
+Plot: After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.
+Artist: Backstreet Boys
+Song Title: I Want It That Way
+Album: The Hits--Chapter One
+Preview the song: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=bcae1a536aee4c6f906aa2dc3a13dd43

@@ -32,22 +32,26 @@ function movie(input) {
 }
 
 function concert(input) {
-    var request = require("request");
-    request("https://rest.bandsintown.com/artists/" + input + "/events?app_id=codingbootcamp", function (error, response, body) {
-        if (!error && response.statusCode === 200) {
-            // console.log(input)
-            // var data = JSON.parse(body)
-            console.log(body)
-        }
-    })
-}
-function log(results) {
-    fs.appendFile("log.txt", results, function (err) {
-        if (err) {
-            return console.log(err);
-        }
-    })
 
+    var request = require("request");
+    var requrl = ("https://rest.bandsintown.com/artists/" + input + "/events?app_id=codingbootcamp")
+
+    request(requrl, function (error, response, body) {
+        if (!error && response.statusCode === 200) {
+
+            var data = JSON.parse(body)
+            for (i=0; i < 5; i++){
+
+            var datetime = data[i].datetime
+            var datesort = datetime.split("T")
+            var date = datesort[0].split("-")
+
+            var result = ("\nName of Venue: " + data[i].venue.name + "\nVenue Location: " + data[i].venue.city + ", " + data[i].venue.country + "\nEvent Date: " + date[1] + "/" + date[2] + "/" + date[0])
+                console.log(result)
+                log(result)
+        }
+        }
+    })
 }
 
 var fs = require("fs")
@@ -60,6 +64,16 @@ function doIt() {
         song(output[1])
     })
 }
+
+function log(results) {
+    fs.appendFile("log.txt", results, function (err) {
+        if (err) {
+            return console.log(err);
+        }
+    })
+
+}
+
 var command = process.argv[2]
 var term = ""
 if (command === "spotify-this-song") {
@@ -70,7 +84,8 @@ if (command === "spotify-this-song") {
         for (i = 3; i < process.argv.length; i++) {
             term = term + process.argv[i] + " "
         }
-        song(term)
+        var search = term.trim()
+        song(search)
     }
 }
 else if (command === "movie-this") {
@@ -81,7 +96,8 @@ else if (command === "movie-this") {
         for (i = 3; i < process.argv.length; i++) {
             term = term + process.argv[i] + " "
         }
-        movie(term)
+        var search = term.trim()
+        movie(search)
     }
 }
 else if (command === "concert-this") {
@@ -92,7 +108,8 @@ else if (command === "concert-this") {
         for (i = 3; i < process.argv.length; i++) {
             term = term + process.argv[i] + " "
         }
-        concert(term)
+        var search = term.trim()
+        concert(search)
     }
 }
 else if (command === "do-what-it-says") {
